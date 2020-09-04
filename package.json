@@ -1,0 +1,24 @@
+ {
+  "name": "filesystem",
+  "version": "1.0.0",
+  "description": "inbuilt packages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev"  : "node server.js",
+    "satya": "nodemon server.js"
+
+
+  },
+  "keywords": [
+    "fs",
+    "url",
+    "os"
+  ],
+  "author": "satya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "zone": "^0.3.4"
+  }
+}
